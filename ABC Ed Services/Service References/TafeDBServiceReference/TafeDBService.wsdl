@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="TafeDBService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsp:Policy wsu:Id="BasicHttpsBinding_ITafeDBService_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:TransportBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <sp:HttpsToken RequireClientCertificate="false" />
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256 />
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict />
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://abcedwcfservice20180519062332.azurewebsites.net/TafeDBService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://abcedwcfservice20180519062332.azurewebsites.net/TafeDBService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://abcedwcfservice20180519062332.azurewebsites.net/TafeDBService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/ABCEdWCFSerivce.Class" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ITafeDBService_insertStudent_InputMessage">
+    <wsdl:part name="parameters" element="tns:insertStudent" />
+  </wsdl:message>
+  <wsdl:message name="ITafeDBService_insertStudent_OutputMessage">
+    <wsdl:part name="parameters" element="tns:insertStudentResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITafeDBService_insertCourse_InputMessage">
+    <wsdl:part name="parameters" element="tns:insertCourse" />
+  </wsdl:message>
+  <wsdl:message name="ITafeDBService_insertCourse_OutputMessage">
+    <wsdl:part name="parameters" element="tns:insertCourseResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITafeDBService_viewStudents_InputMessage">
+    <wsdl:part name="parameters" element="tns:viewStudents" />
+  </wsdl:message>
+  <wsdl:message name="ITafeDBService_viewStudents_OutputMessage">
+    <wsdl:part name="parameters" element="tns:viewStudentsResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITafeDBService_viewCourses_InputMessage">
+    <wsdl:part name="parameters" element="tns:viewCourses" />
+  </wsdl:message>
+  <wsdl:message name="ITafeDBService_viewCourses_OutputMessage">
+    <wsdl:part name="parameters" element="tns:viewCoursesResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITafeDBService_enrol_InputMessage">
+    <wsdl:part name="parameters" element="tns:enrol" />
+  </wsdl:message>
+  <wsdl:message name="ITafeDBService_enrol_OutputMessage">
+    <wsdl:part name="parameters" element="tns:enrolResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITafeDBService_getEnrolmentsForStudent_InputMessage">
+    <wsdl:part name="parameters" element="tns:getEnrolmentsForStudent" />
+  </wsdl:message>
+  <wsdl:message name="ITafeDBService_getEnrolmentsForStudent_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getEnrolmentsForStudentResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITafeDBService_getStudentsEnrolledInCourse_InputMessage">
+    <wsdl:part name="parameters" element="tns:getStudentsEnrolledInCourse" />
+  </wsdl:message>
+  <wsdl:message name="ITafeDBService_getStudentsEnrolledInCourse_OutputMessage">
+    <wsdl:part name="parameters" element="tns:getStudentsEnrolledInCourseResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ITafeDBService">
+    <wsdl:operation name="insertStudent">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITafeDBService/insertStudent" message="tns:ITafeDBService_insertStudent_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITafeDBService/insertStudentResponse" message="tns:ITafeDBService_insertStudent_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="insertCourse">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITafeDBService/insertCourse" message="tns:ITafeDBService_insertCourse_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITafeDBService/insertCourseResponse" message="tns:ITafeDBService_insertCourse_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="viewStudents">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITafeDBService/viewStudents" message="tns:ITafeDBService_viewStudents_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITafeDBService/viewStudentsResponse" message="tns:ITafeDBService_viewStudents_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="viewCourses">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITafeDBService/viewCourses" message="tns:ITafeDBService_viewCourses_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITafeDBService/viewCoursesResponse" message="tns:ITafeDBService_viewCourses_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="enrol">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITafeDBService/enrol" message="tns:ITafeDBService_enrol_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITafeDBService/enrolResponse" message="tns:ITafeDBService_enrol_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getEnrolmentsForStudent">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITafeDBService/getEnrolmentsForStudent" message="tns:ITafeDBService_getEnrolmentsForStudent_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITafeDBService/getEnrolmentsForStudentResponse" message="tns:ITafeDBService_getEnrolmentsForStudent_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getStudentsEnrolledInCourse">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITafeDBService/getStudentsEnrolledInCourse" message="tns:ITafeDBService_getStudentsEnrolledInCourse_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITafeDBService/getStudentsEnrolledInCourseResponse" message="tns:ITafeDBService_getStudentsEnrolledInCourse_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_ITafeDBService" type="tns:ITafeDBService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="insertStudent">
+      <soap:operation soapAction="http://tempuri.org/ITafeDBService/insertStudent" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="insertCourse">
+      <soap:operation soapAction="http://tempuri.org/ITafeDBService/insertCourse" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="viewStudents">
+      <soap:operation soapAction="http://tempuri.org/ITafeDBService/viewStudents" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="viewCourses">
+      <soap:operation soapAction="http://tempuri.org/ITafeDBService/viewCourses" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="enrol">
+      <soap:operation soapAction="http://tempuri.org/ITafeDBService/enrol" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getEnrolmentsForStudent">
+      <soap:operation soapAction="http://tempuri.org/ITafeDBService/getEnrolmentsForStudent" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getStudentsEnrolledInCourse">
+      <soap:operation soapAction="http://tempuri.org/ITafeDBService/getStudentsEnrolledInCourse" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="BasicHttpsBinding_ITafeDBService" type="tns:ITafeDBService">
+    <wsp:PolicyReference URI="#BasicHttpsBinding_ITafeDBService_policy" />
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="insertStudent">
+      <soap:operation soapAction="http://tempuri.org/ITafeDBService/insertStudent" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="insertCourse">
+      <soap:operation soapAction="http://tempuri.org/ITafeDBService/insertCourse" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="viewStudents">
+      <soap:operation soapAction="http://tempuri.org/ITafeDBService/viewStudents" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="viewCourses">
+      <soap:operation soapAction="http://tempuri.org/ITafeDBService/viewCourses" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="enrol">
+      <soap:operation soapAction="http://tempuri.org/ITafeDBService/enrol" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getEnrolmentsForStudent">
+      <soap:operation soapAction="http://tempuri.org/ITafeDBService/getEnrolmentsForStudent" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getStudentsEnrolledInCourse">
+      <soap:operation soapAction="http://tempuri.org/ITafeDBService/getStudentsEnrolledInCourse" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="TafeDBService">
+    <wsdl:port name="BasicHttpBinding_ITafeDBService" binding="tns:BasicHttpBinding_ITafeDBService">
+      <soap:address location="http://abcedwcfservice20180519062332.azurewebsites.net/TafeDBService.svc" />
+    </wsdl:port>
+    <wsdl:port name="BasicHttpsBinding_ITafeDBService" binding="tns:BasicHttpsBinding_ITafeDBService">
+      <soap:address location="https://abcedwcfservice20180519062332.azurewebsites.net/TafeDBService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

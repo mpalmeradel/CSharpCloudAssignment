@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="TafeDBEntities-Web.config Connection String" description="TafeDBEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/TafeDBModel.csdl|res://*/TafeDBModel.ssdl|res://*/TafeDBModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=matthewpalmerserver.database.windows.net;initial catalog=TafeDB;persist security info=True;user id=mpalmer41;password=Monday777;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\TortoiseGitPractiseTest\\PractiseTest\\ABCEdWCFSerivce\\ABCEdWCFSerivce\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='TafeDBEntities']/@connectionString" />
+  </parameter>
+</parameters>

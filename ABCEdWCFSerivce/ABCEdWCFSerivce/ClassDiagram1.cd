@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ABCEdWCFSerivce.Class.Course">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAABAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Class\Course.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ABCEdWCFSerivce.Class.Enrolment">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAECAAA=</HashCode>
+      <FileName>Class\Enrolment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ABCEdWCFSerivce.Class.Student">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Class\Student.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ABCEdWCFSerivce.TafeDBEntities" Collapsed="true">
+    <Position X="7" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgEAAAAAABAAAGAAAAAAAAEAAACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TafeDBModel.Context.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="TblCourse" />
+      <Property Name="TblStudent" />
+      <Property Name="TblEnrolment" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ABCEdWCFSerivce.TblCourse" Collapsed="true">
+    <Position X="10.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAABAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>TblCourse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ABCEdWCFSerivce.TblEnrolment" Collapsed="true">
+    <Position X="9" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAECAAA=</HashCode>
+      <FileName>TblEnrolment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ABCEdWCFSerivce.TblStudent" Collapsed="true">
+    <Position X="10.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>TblStudent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ABCEdWCFSerivce.TafeDBService">
+    <Position X="5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAGQAAQQAAAEIAAAEBAACAAgAAgAAQAAAAAAAA=</HashCode>
+      <FileName>TafeDBService.svc.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ITafeDBService" />
+      <Property Name="Course" />
+      <Property Name="Enrolment" />
+      <Property Name="Student" />
+      <Property Name="TafeDBEntities" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="ABCEdWCFSerivce.ITafeDBService">
+    <Position X="2" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAQAAAEAAAAEBAAAAAgAAgAAAAAAAAAAA=</HashCode>
+      <FileName>ITafeDBService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

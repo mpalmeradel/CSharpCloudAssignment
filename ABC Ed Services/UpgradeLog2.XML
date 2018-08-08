@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ABC Ed Services">
+</Property><Property Name="Solution File" Value="K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\ABC Ed Services.sln">
+</Property><Property Name="User Options File" Value="K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\ABC Ed Services.suo">
+</Property><Property Name="Date" Value="Saturday, May 25, 2013">
+</Property><Property Name="Time" Value="23:20 PM">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="ABC Ed Services.sln" Description="File successfully backed up as K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\Backup1\ABC Ed Services.sln">
+</Event><Event ErrorLevel="0" Project="" Source="ABC Ed Services.suo" Description="File successfully backed up as K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\Backup1\ABC Ed Services.suo">
+</Event><Event ErrorLevel="0" Project="ABC Ed Services" Source="ABC Ed Services.csproj" Description="Project file successfully backed up as K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\Backup1\ABC Ed Services.csproj">
+</Event><Event ErrorLevel="0" Project="ABC Ed Services" Source="ABC Ed Services.csproj.user" Description="Project user file successfully backed up as K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\Backup1\ABC Ed Services.csproj.user">
+</Event><Event ErrorLevel="0" Project="ABC Ed Services" Source="Form1.cs" Description="File successfully backed up as K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\Backup1\Form1.cs">
+</Event><Event ErrorLevel="0" Project="ABC Ed Services" Source="Form1.Designer.cs" Description="File successfully backed up as K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\Backup1\Form1.Designer.cs">
+</Event><Event ErrorLevel="0" Project="ABC Ed Services" Source="frmBilling.cs" Description="File successfully backed up as K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\Backup1\frmBilling.cs">
+</Event><Event ErrorLevel="0" Project="ABC Ed Services" Source="frmBilling.Designer.cs" Description="File successfully backed up as K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\Backup1\frmBilling.Designer.cs">
+</Event><Event ErrorLevel="0" Project="ABC Ed Services" Source="frmCourses.cs" Description="File successfully backed up as K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\Backup1\frmCourses.cs">
+</Event><Event ErrorLevel="0" Project="ABC Ed Services" Source="frmCourses.Designer.cs" Description="File successfully backed up as K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\Backup1\frmCourses.Designer.cs">
+</Event><Event ErrorLevel="0" Project="ABC Ed Services" Source="frmEnroll.cs" Description="File successfully backed up as K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\Backup1\frmEnroll.cs">
+</Event><Event ErrorLevel="0" Project="ABC Ed Services" Source="frmEnroll.Designer.cs" Description="File successfully backed up as K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\Backup1\frmEnroll.Designer.cs">
+</Event><Event ErrorLevel="0" Project="ABC Ed Services" Source="frmNewCourses.cs" Description="File successfully backed up as K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\Backup1\frmNewCourses.cs">
+</Event><Event ErrorLevel="0" Project="ABC Ed Services" Source="frmNewCourses.Designer.cs" Description="File successfully backed up as K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\Backup1\frmNewCourses.Designer.cs">
+</Event><Event ErrorLevel="0" Project="ABC Ed Services" Source="frmNewStudents.cs" Description="File successfully backed up as K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\Backup1\frmNewStudents.cs">
+</Event><Event ErrorLevel="0" Project="ABC Ed Services" Source="frmNewStudents.Designer.cs" Description="File successfully backed up as K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\Backup1\frmNewStudents.Designer.cs">
+</Event><Event ErrorLevel="0" Project="ABC Ed Services" Source="frmStudents.cs" Description="File successfully backed up as K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\Backup1\frmStudents.cs">
+</Event><Event ErrorLevel="0" Project="ABC Ed Services" Source="frmStudents.Designer.cs" Description="File successfully backed up as K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\Backup1\frmStudents.Designer.cs">
+</Event><Event ErrorLevel="0" Project="ABC Ed Services" Source="frmStudentTT.cs" Description="File successfully backed up as K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\Backup1\frmStudentTT.cs">
+</Event><Event ErrorLevel="0" Project="ABC Ed Services" Source="frmStudentTT.Designer.cs" Description="File successfully backed up as K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\Backup1\frmStudentTT.Designer.cs">
+</Event><Event ErrorLevel="0" Project="ABC Ed Services" Source="frmViewEnrollments.cs" Description="File successfully backed up as K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\Backup1\frmViewEnrollments.cs">
+</Event><Event ErrorLevel="0" Project="ABC Ed Services" Source="frmViewEnrollments.Designer.cs" Description="File successfully backed up as K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\Backup1\frmViewEnrollments.Designer.cs">
+</Event><Event ErrorLevel="0" Project="ABC Ed Services" Source="Program.cs" Description="File successfully backed up as K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\Backup1\Program.cs">
+</Event><Event ErrorLevel="0" Project="ABC Ed Services" Source="Properties\AssemblyInfo.cs" Description="File successfully backed up as K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\Backup1\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="ABC Ed Services" Source="Properties\Resources.Designer.cs" Description="File successfully backed up as K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\Backup1\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="ABC Ed Services" Source="Properties\Settings.Designer.cs" Description="File successfully backed up as K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\Backup1\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="ABC Ed Services" Source="TafeDBDataSet.Designer.cs" Description="File successfully backed up as K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\Backup1\TafeDBDataSet.Designer.cs">
+</Event><Event ErrorLevel="0" Project="ABC Ed Services" Source="Tafe_DataTier.cs" Description="File successfully backed up as K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\Backup1\Tafe_DataTier.cs">
+</Event><Event ErrorLevel="0" Project="ABC Ed Services" Source="app.config" Description="File successfully backed up as K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\Backup1\app.config">
+</Event><Event ErrorLevel="0" Project="ABC Ed Services" Source="Properties\Settings.settings" Description="File successfully backed up as K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\Backup1\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="ABC Ed Services" Source="TafeDBDataSet.xsc" Description="File successfully backed up as K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\Backup1\TafeDBDataSet.xsc">
+</Event><Event ErrorLevel="0" Project="ABC Ed Services" Source="TafeDBDataSet.xsd" Description="File successfully backed up as K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\Backup1\TafeDBDataSet.xsd">
+</Event><Event ErrorLevel="0" Project="ABC Ed Services" Source="TafeDBDataSet.xss" Description="File successfully backed up as K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\Backup1\TafeDBDataSet.xss">
+</Event><Event ErrorLevel="0" Project="ABC Ed Services" Source="Form1.resx" Description="File successfully backed up as K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\Backup1\Form1.resx">
+</Event><Event ErrorLevel="0" Project="ABC Ed Services" Source="frmBilling.resx" Description="File successfully backed up as K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\Backup1\frmBilling.resx">
+</Event><Event ErrorLevel="0" Project="ABC Ed Services" Source="frmCourses.resx" Description="File successfully backed up as K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\Backup1\frmCourses.resx">
+</Event><Event ErrorLevel="0" Project="ABC Ed Services" Source="frmEnroll.resx" Description="File successfully backed up as K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\Backup1\frmEnroll.resx">
+</Event><Event ErrorLevel="0" Project="ABC Ed Services" Source="frmNewCourses.resx" Description="File successfully backed up as K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\Backup1\frmNewCourses.resx">
+</Event><Event ErrorLevel="0" Project="ABC Ed Services" Source="frmNewStudents.resx" Description="File successfully backed up as K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\Backup1\frmNewStudents.resx">
+</Event><Event ErrorLevel="0" Project="ABC Ed Services" Source="frmStudents.resx" Description="File successfully backed up as K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\Backup1\frmStudents.resx">
+</Event><Event ErrorLevel="0" Project="ABC Ed Services" Source="frmStudentTT.resx" Description="File successfully backed up as K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\Backup1\frmStudentTT.resx">
+</Event><Event ErrorLevel="0" Project="ABC Ed Services" Source="frmViewEnrollments.resx" Description="File successfully backed up as K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\Backup1\frmViewEnrollments.resx">
+</Event><Event ErrorLevel="0" Project="ABC Ed Services" Source="Properties\Resources.resx" Description="File successfully backed up as K:\WTC Desktop\TAFE\5MLC\Assessments\ABC Ed Services\Backup1\Properties\Resources.resx">
+</Event><Event ErrorLevel="1" Project="ABC Ed Services" Source="ABC Ed Services.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="ABC Ed Services" Source="ABC Ed Services.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ABC Ed Services" Source="ABC Ed Services.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="ABC Ed Services.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="ABC Ed Services.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ABC Ed Services" Source="ABC Ed Services.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

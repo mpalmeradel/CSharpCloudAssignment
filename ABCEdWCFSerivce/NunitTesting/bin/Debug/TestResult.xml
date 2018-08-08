@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\000712169\Desktop\ABCEdWCFSerivce\NunitTesting\bin\Debug\NunitTesting.dll" total="9" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2018-05-31" time="11:56:11">
+  <environment nunit-version="2.6.2.12296" clr-version="2.0.50727.8662" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.6.2\bin" machine-name="ADLBB03-011789" user="000712169" user-domain="TAFESA" />
+  <culture-info current-culture="en-AU" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\Users\000712169\Desktop\ABCEdWCFSerivce\NunitTesting\bin\Debug\NunitTesting.dll" executed="True" result="Success" success="True" time="0.123" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="NunitTesting" executed="True" result="Success" success="True" time="0.113" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="NunitTests" executed="True" result="Success" success="True" time="0.111" asserts="0">
+            <results>
+              <test-case name="NunitTesting.NunitTests.testCourseCostGetterSetter" executed="True" result="Success" success="True" time="0.066" asserts="1" />
+              <test-case name="NunitTesting.NunitTests.testCourseCourseIDGetterSetter" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+              <test-case name="NunitTesting.NunitTests.testCourseCourseNameGetterSetter" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+              <test-case name="NunitTesting.NunitTests.testEnrolmentCourseIdGetterSetter" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+              <test-case name="NunitTesting.NunitTests.testEnrolmentGradeGetterSetter" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="NunitTesting.NunitTests.testEnrolmentStudentIdGetterSetter" executed="True" result="Success" success="True" time="0.001" asserts="1" />
+              <test-case name="NunitTesting.NunitTests.testStudentDateEnrolledGetterSetter" executed="True" result="Success" success="True" time="0.002" asserts="1" />
+              <test-case name="NunitTesting.NunitTests.testStudentStudentIDGetterSetter" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+              <test-case name="NunitTesting.NunitTests.testStudentStudentNameGetterSetter" executed="True" result="Success" success="True" time="0.000" asserts="1" />
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
